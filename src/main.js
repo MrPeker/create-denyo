@@ -48,7 +48,7 @@ console.log(`
 Deno App successfully created
 
 To start:
-mkdir ${directory}
+cd ${directory}
 deno run --allow-net index.js
 
 Please sure you added Deno to your $PATH
