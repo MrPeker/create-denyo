@@ -25,8 +25,6 @@ const args = process.argv;
 const directory = args[2] || "deno-starter";
 const targetDir = path.join(process.cwd(), directory);
 
-console.log({ args, rootDir, targetDir });
-
 cp.execSync("curl -fsSL https://deno.land/x/install/install.sh | sh", {
   cwd: rootDir,
   stdio: "inherit",
@@ -52,7 +50,6 @@ Deno App successfully created
 To start:
 mkdir ${directory}
 deno run --allow-net index.js
-
 
 Please sure you added Deno to your $PATH
 `);
