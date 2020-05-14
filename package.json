@@ -1,0 +1,15 @@
+{
+  "name": "create-denyo",
+  "version": "0.1.1",
+  "main": "index.js",
+  "keywords": [
+    "create-denyo",
+    "deno",
+    "denyo"
+  ],
+  "license": "MIT",
+  "author": "Mehmet Ali Peker",
+  "bin": {
+    "create-denyo": "src/main.js"
+  }
+}
